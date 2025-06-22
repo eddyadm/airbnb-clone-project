@@ -4,16 +4,20 @@
 The Airbnb Clone is a group-based full-stack project in the ALX Software Engineering program that involves replicating the core features of Airbnb, focusing on backend architecture, data modeling, and API creation
 
 **Team Roles and Responsibilities**
-Database Administrator- install and configure databases, Setup database instances and environments for development, testing, and production
-Backend Developer- Write and maintain code that runs on the server using languages such as Node.js, Python, and design, implement, and manage databases, and Integrate third-party services and external APIs
-DevOps Engineer- Design, build, and maintain Continuous Integration/Continuous Deployment (CI/CD) pipelines using tools like Jenkins, GitHub Actions, GitLab CI, and automate testing, building, and deployment processes to improve development speed and reliability.
-QA Analyst- Review and analyze business and technical requirements, and identify testable conditions and prepare test plans accordingly
+	• Backend Developer: Responsible for implementing API endpoints, database schemas, and business logic
+	• Database Administrator: Manages database design, indexing, and optimizations
+	• DevOps Engineer: Handles deployment, monitoring, and scaling of the backend services
+  • QA Engineer: Ensures the backend functionalities are thoroughly tested and meet quality standards
+
 
 **Technology Stack**
-Github- Tracks code changes, enables collaboration, and supports CI/CD pipelines
-PostgreSQL / MySQL- Stores persistent data. SQL (PostgreSQL/MySQL) for structured data; NoSQL (MongoDB) for flexibility
-Docker- 	Packages apps and dependencies for consistent deployment across environments
-Kubernetes- Automates deployment, scaling, and management of containerized applications
+	• Django: A high-level Python web framework used for building the RESTful API
+	• Django REST Framework: Provides tools for creating and managing RESTful APIs
+	• PostgreSQL: A powerful relational database used for data storage
+	• GraphQL: Allows for flexible and efficient querying of data
+	• Docker: Containerization tool for consistent development and deployment environments
+  • CI/CD Pipelines: Automated pipelines for testing and deploying code changes
+
 
 **Database Design**
 The Airbnb Clone project simulates a simplified version of Airbnb, requiring a structured and relational database to manage various types of entities such as users, properties, reviews, and locations. The database design reflects real-world relationships and supports both file-based storage and MySQL-based relational storage in later stages
